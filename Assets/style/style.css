@@ -1,0 +1,21 @@
+h1{
+    display: flex;
+}
+
+.flex-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.align-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.myheader{
+    height: 15%;
+}
