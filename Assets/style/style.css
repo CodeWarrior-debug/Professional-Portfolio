@@ -7,14 +7,9 @@ h1{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-end;
-}
-
-.centerize{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     flex-wrap: wrap;
 }
+
 
 .myheader{
     height: 15%;
@@ -40,9 +35,13 @@ nav{
     align-items: center;
 }
 
-.section-title{
-    /* position:absolute; */
-    height: 100%;
-    left: 0%;
+h2{
+    font-size: 1.5vw;
     transform: rotate(-90deg);
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
