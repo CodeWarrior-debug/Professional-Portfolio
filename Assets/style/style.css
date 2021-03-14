@@ -47,12 +47,15 @@ nav{
 
 h2{
     font-size: min(max(1rem, 1.5vw), 20px);
-    transform: rotate(-90deg);
+    /* transform: rotate(-90deg); */
     left: 0%;
-    display: block;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    width: 100%;
+    margin:auto;
 }
 
 .real-pgph{
