@@ -9,13 +9,40 @@ h1{
     align-items: flex-end;
 }
 
-.align-center{
+.centerize{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .myheader{
     height: 15%;
+}
+
+.big-pic{
+    width: 66%;
+    height: 33%;
+}
+
+.small-pic{
+    width: 36%;
+    height: 18%;
+}
+img{
+    margin:2%;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title{
+    /* position:absolute; */
+    height: 100%;
+    left: 0%;
+    transform: rotate(-90deg);
 }
