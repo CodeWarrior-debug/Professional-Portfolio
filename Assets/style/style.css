@@ -27,13 +27,6 @@ nav p{
     padding: 2%;
 }
 
-.small-pic{
-    width: 36%;
-    height: 18%;
-    margin:auto;
-    padding: 2%;
-}
-
 img{
     margin:2%;
 }
@@ -46,7 +39,7 @@ nav{
 }
 
 .big-work-title{
-    font-size: min(max(1rem, 1vw), 10px);
+    font-size: min(max(1rem, 1.25vw), 18px);
     left: 0%;
     display: flex;
     flex-direction: row;
@@ -85,3 +78,14 @@ a{text-decoration: underline;
     align-items: center;
 }
 
+.work-desc{
+    margin-left: 18%;
+    margin-right: 24%;
+}
+
+.res-logo{
+    display: flex;
+    justify-content: center;
+    height: 52vh;
+    width: 40vh;
+}
