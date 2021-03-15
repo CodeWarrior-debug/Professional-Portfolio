@@ -16,63 +16,72 @@
     <header class="container-fluid flex-right myheader">
         <h1 class="col-5 flex-right ml-1">James Jordan's Portfolio</h1>
         <nav class='col-6 flex-right'> 
-            <p>About James</p>
-            <p>Contact</p>
-            <p>Work Product</p>
-            <p>Resume</p>
+            <p><a href="#about">About James</a></p>
+            <p><a href="#contact">Contact</a></p>
+            <p><a href="#work">Work Product</a></p>
+            <p><a href="#resume">Resume</a></p>
         </nav>
     </header>
 
 <!--About James-->
-    <div class="row mt-3"> 
-        <h2 class="col-2 m-0 p-0">About James</h2> <!--section-title-->
-        <p class='col-9 real-pgph flex-right mr-1'>After 5 years in data analysis, I'm more than ready to build web-powered apps and reports. Get piercing insights, effort-saving automations, and powerful tools in your hands when you bring me onto your team!</p>
+    <div class="row m-3"> 
+        <h2 id="about">About James</h2> <!--section-title-->
+        <p class='col-11 flex-right m-3 ml-3'>After 5 years in data analysis, I'm more than ready to build web-powered apps and reports. Get piercing insights, effort-saving automations, and powerful tools in your hands with me on the team!</p>
     </div>
 
 <!--Contact-->
-    <div class="row mt-3">
-    <h2 class="col-2 ml-1">
-        <p class='flip'>Contact</p>
-    </h2> <!--section-title-->
-        <div class='col-9 flex-right'> 
-            <p class='flex-right m-2'>jpjordan1987@gmail.com</p>
-            <p class='flex-right m-2'>CodeWarrior-debug</p>
+    <div class="row m-3">
+    <h2 id='contact'>Contact</h2> <!--section-title-->
+        <div class='col-12 flex-right'> 
+            <p class='flex-right m-2'><a href="jpjordan1987@gmail.com">jpjordan1987@gmail.com</a></p>
+            <p class='flex-right m-2'><a href="https://github.com/CodeWarrior-debug">CodeWarrior-debug</a></p>
             <p class='flex-right m-2'>(704) 287-2240</p>
-            <p class='flex-right m-2'>Linked In</p>
+            <p class='flex-right m-2'><a href="https://www.linkedin.com/in/james-jordan-7a919b34/">Linked In</a></p>
         </div>
     </div>
 
 <!--Work Product-->
-<div class='row mt-3'>
-    <h2 class="col-2 row ml-1">Work Product</h2>
+<div class='row m-3 col-12'>
+    <h2 id='work'>Work Product</h2>
+
+    <!--COVID-->
+    <p class='big-work-title m-3'>COVID Correlation Console</p>
     <div class="row col-12 mgl-sm">
         <img class='big-pic' src="./Assets/img/Covid-Website-Screenshot.png" alt="COVID Website" >
-        <article>
-            <p class="font-weight-bold p-0">COVID Correlation Console</p>
-            <a class ='m-3' href="https://codewarrior-debug.github.io/covid-correlation-console/">Deployed WebApp</a>
-            <a class='m-3' href="https://github.com/CodeWarrior-debug/covid-correlation-console">GitHub Repository</a>
-            <p>On this project, I was responsible for the JavaScript & was also involved with the API research and team leadership.</p>
-        </article>
+        <div class='col-12 flex-right'> 
+            <a class='ml-3 pr-1 mr-3 pr-1' href="https://codewarrior-debug.github.io/covid-correlation-console/">Deployed WebApp</a>
+            <a class='ml-3 pr-1 mr-3 pr-1' href="https://github.com/CodeWarrior-debug/covid-correlation-console">GitHub Repo</a>
+        </div>
     </div>
+    <p class='col-11 d-flex m-3'>On this project, I was responsible for the JavaScript & involved with API research and team leadership.</p>
+    
+    <!--Team Generator-->
+    <p class='big-work-title m-3'>Team Generator</p>
     <div class="row col-12 mgl-sm">
-        <img class='small-pic' src="./Assets/img/Generated Team Webpage.png" alt="Generate Team Page" >
-        <article>
-            <p class="font-weight-bold p-0">Team Generator</p>
-            <a class ='m-3' href="https://codewarrior-debug.github.io/covid-correlation-console/">Deployed WebApp</a>  <!--fix-->
-            <a class='m-3' href="https://github.com/CodeWarrior-debug/covid-correlation-console">GitHub Repository</a> <!--fix-->
-            <p>This solo-project shows skills with presenting information and npm packages. </p>
-        </article>
-        <img class='small-pic' src="./Assets/img/README Preview.png" alt="README Preview" >
-        <article>
-            <p class="font-weight-bold p-0">Automatic READMEs</p>
-            <a class ='m-3' href="https://codewarrior-debug.github.io/covid-correlation-console/">Deployed WebApp</a> <!--fix-->
-            <a class='m-3' href="https://github.com/CodeWarrior-debug/covid-correlation-console">GitHub Repository</a> <!--fix-->
-            <p>This solo-project shows skills with Node.js & the inquirer package. </p>
-        </article>
+        <img class='big-pic' src="./Assets/img/Generated Team Webpage.png" alt="Generate Team Page" >
+        <div class='col-12 flex-right'> 
+            <a class='ml-3 pr-1 mr-3 pr-1' href="https://github.com/CodeWarrior-debug/hw10-team-profile-populator/blob/main/lib/img/Video%20Of%20Team%20Page%20Maker.mp4">Demo Video</a>
+            <a class='ml-3 pr-1 mr-3 pr-1' href="https://github.com/CodeWarrior-debug/hw10-team-profile-populator">GitHub Repo</a> 
+        </div>
     </div>
+    <p class='col-11 d-flex m-3'>This solo-project shows skill with presenting information and npm packages.</p>
+
+    <!--Automatic Readme-->
+    <p class='big-work-title m-3'>Automatic READMEs</p>
+    <div class="row col-12 mgl-sm">
+        <img class='big-pic' src="./Assets/img/README Preview.png" alt="README Preview" >
+        <div class='col-12 flex-right'> 
+            <a class ='col-9' href="https://drive.google.com/file/d/1Awv5uqa4xtxKLN6U4VD8B3KrhOnEFsj0/view?usp=sharing">Demo Video</a>
+            <a class='col-9' href="https://github.com/CodeWarrior-debug/hw9-so-automatic-readme-node.js">GitHub Repo</a> 
+        </div>
+    </div>
+    <p class='col-11 d-flex m-3'>This solo-project shows skill with Node.js & the inquirer package. </p>
+
 </div>
 
 <!--Resume-->
-    <div class="col-2 row ml-1">D</div>
+
+        <img src="/Assets/img/James Resume icon.png">
+    
 </body>
 </html>
