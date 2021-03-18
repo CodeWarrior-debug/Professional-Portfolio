@@ -49,7 +49,8 @@ nav{
 
 h2{
     font-size: min(max(1rem, 1.5vw), 20px);
-    /* transform: rotate(-90deg); */
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
     left: 0%;
     display: flex;
     flex-direction: row;
@@ -88,4 +89,8 @@ a{text-decoration: underline;
     justify-content: center;
     height: 52vh;
     width: 40vh;
+}
+
+img:hover{
+    opacity: 66%;
 }
